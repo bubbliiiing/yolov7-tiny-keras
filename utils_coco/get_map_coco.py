@@ -21,8 +21,8 @@ map_mode            = 0
 #-------------------------------------------------------#
 #   指向了验证集标签与图片路径
 #-------------------------------------------------------#
-cocoGt_path         = 'D:\Study\Collection\Dataset\Coco_data\coco_dataset/annotations/instances_val2017.json'
-dataset_img_path    = 'D:\Study\Collection\Dataset\Coco_data\coco_dataset/val2017'
+cocoGt_path         = 'coco_dataset/annotations/instances_val2017.json'
+dataset_img_path    = 'coco_dataset/val2017'
 #-------------------------------------------------------#
 #   结果输出的文件夹，默认为map_out
 #-------------------------------------------------------#
