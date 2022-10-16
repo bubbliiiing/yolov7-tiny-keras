@@ -31,7 +31,7 @@ YoloV7 | https://github.com/bubbliiiing/yolov7-keras
 ## 性能情况
 | 训练数据集 | 权值文件名称 | 测试数据集 | 输入图片大小 | mAP 0.5:0.95 | mAP 0.5 |
 | :-----: | :-----: | :------: | :------: | :------: | :-----: |
-| COCO-Train2017 | [yolov7_tiny_weights.h5](https://github.com/bubbliiiing/yolov7-tiny-pytorch/releases/download/v1.0/yolov7_tiny_weights.h5) | COCO-Val2017 | 640x640 | 37.2 | 55.1
+| COCO-Train2017 | [yolov7_tiny_weights.h5](https://github.com/bubbliiiing/yolov7-tiny-keras/releases/download/v1.0/yolov7_tiny_weights.h5) | COCO-Val2017 | 640x640 | 37.2 | 55.1
 
 ## 所需环境
 tensorflow-gpu==1.13.2    
