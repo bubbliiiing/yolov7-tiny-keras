@@ -43,7 +43,7 @@ def yolo_body(input_shape, anchors_mask, num_classes):
     #---------------------------------------------------#   
     #   生成主干模型，获得三个有效特征层，他们的shape分别是：
     #   80, 80, 256
-    #   40, 40, 1024
+    #   40, 40, 512
     #   20, 20, 1024
     #---------------------------------------------------#
     feat1, feat2, feat3 = darknet_body(inputs, transition_channels, block_channels, n)
